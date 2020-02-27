@@ -1,0 +1,31 @@
+//range check validation in Pseudocode using REPEAT
+
+DECLARE Lower, Upper : INTEGER
+DECLARE Number : REAL
+INPUT Lower
+INPUT Upper
+
+REPEAT 
+  INPUT Number
+UNTIL Number >= Lower AND Number <= Upper
+ENDREPEAT
+
+//range check validation in Pseudocode using WHILE
+
+DECLARE Lower, Upper : INTEGER
+DECLARE Number : REAL
+INPUT Lower
+INPUT Upper
+
+Flag = True
+WHILE Flag = True DO
+  IF Number >= LowerBound AND Number <= UpperBound
+    THEN
+      PRINT "The number is accepted"
+      Flag = False
+    ELSE
+      PRINT "The number is not accepted. Try again"
+  ENDIF
+ENDWHILE
+
+
