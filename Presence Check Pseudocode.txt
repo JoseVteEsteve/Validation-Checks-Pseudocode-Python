@@ -1,0 +1,13 @@
+#presence check in pseudocode
+
+Flag = True
+WHILE Flag = TRUE DO
+  INPUT NewString
+  IF NewString < > "" 
+    THEN
+      PRINT "The field has been filled in. "
+      Flag = False
+    ELSE
+      PRINT "The field must be filled in. Try again."
+  ENDIF
+ENDWHILE
