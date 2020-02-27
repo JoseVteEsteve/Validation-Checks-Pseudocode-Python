@@ -1,4 +1,4 @@
-//limit check in pseucocode using WHILE
+//limit check (lowerbound) in pseucocode using WHILE
 
 INPUT LowerBound
 Flag = True
@@ -12,10 +12,33 @@ WHILE Flag = True DO
       PRINT "The number is not accepted. Try again"
 ENDWHILE
 
-//limit check in pseudocode using REPEAT
+//limit check (lowerbound) in pseudocode using REPEAT
 
 INPUT LowerBound
 REPEAT
   INPUT Number
 UNTIL Number >= LowerBound
+ENDREPEAT
+
+
+//limit check (upperbound) in pseucocode using WHILE
+
+INPUT UpperBound
+Flag = True
+WHILE Flag = True DO
+  INPUT Number
+  IF Number <= UpperBound
+    THEN
+      PRINT "The number is accepted"
+      Flag = False
+    ELSE
+      PRINT "The number is not accepted. Try again"
+ENDWHILE
+
+//limit check (upperbound) in pseudocode using REPEAT
+
+INPUT UpperBound
+REPEAT
+  INPUT Number
+UNTIL Number <= UpperBound
 ENDREPEAT
