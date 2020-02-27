@@ -1,4 +1,4 @@
-#length check implemented in Python
+#range check implemented in Python
 
 lower = int(input("Enter the lower bound:") 
 upper = int(input ("Enter the upper bound:")) 
