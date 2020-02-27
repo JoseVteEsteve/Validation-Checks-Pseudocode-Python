@@ -1,7 +1,7 @@
 #length check implemented in Python
 
 lower = int(input("Enter the lower bound:") 
-upper = int(input ("Enter the upper blund:")) 
+upper = int(input ("Enter the upper bound:")) 
 
 flag = True
 while flag = True:
