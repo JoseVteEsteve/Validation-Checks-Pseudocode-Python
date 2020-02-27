@@ -10,7 +10,7 @@ while flag = True:
     print("The number is accepted") 
     flag = False
   else:
-    print("The number is not accepted") 
+    print("The number is not accepted. Try again") 
     
     
   
