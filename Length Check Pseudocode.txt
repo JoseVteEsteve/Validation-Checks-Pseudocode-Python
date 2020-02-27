@@ -1,0 +1,12 @@
+//length Check validation in Pseudocode
+
+DECLARE Lower, Upper : INTEGER
+DECLARE Number : REAL
+INPUT Lower
+INPUT Upper
+
+REPEAT 
+  INPUT Number
+UNTIL Number >= Lower AND Number <= Upper
+
+
