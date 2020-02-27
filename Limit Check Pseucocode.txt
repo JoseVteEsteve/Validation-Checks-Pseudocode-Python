@@ -10,6 +10,7 @@ WHILE Flag = True DO
       Flag = False
     ELSE
       PRINT "The number is not accepted. Try again"
+  ENDIF
 ENDWHILE
 
 //limit check (lowerbound) in pseudocode using REPEAT
@@ -33,6 +34,7 @@ WHILE Flag = True DO
       Flag = False
     ELSE
       PRINT "The number is not accepted. Try again"
+  ENDIF
 ENDWHILE
 
 //limit check (upperbound) in pseudocode using REPEAT
