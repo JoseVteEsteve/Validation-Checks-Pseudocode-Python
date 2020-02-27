@@ -1,0 +1,21 @@
+//limit check in pseucocode using WHILE
+
+INPUT LowerBound
+Flag = True
+WHILE Flag = True DO
+  INPUT Number
+  IF Number >= LowerBound
+    THEN
+      PRINT "The number is accepted"
+      Flag = False
+    ELSE
+      PRINT "The number is not accepted. Try again"
+ENDWHILE
+
+//limit check in pseudocode using REPEAT
+
+INPUT LowerBound
+REPEAT
+  INPUT Number
+UNTIL Number >= LowerBound
+ENDREPEAT
